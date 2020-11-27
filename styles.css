@@ -1,5 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
+
+
+
+@media(min-width:360px){
+    .card-columns{
+        column-count: 2;
+    }
+}
+@media(min-width:576px){
+    .card-columns{
+        column-count: 2;
+    }
+}
+@media(min-width:768px){
+    .card-columns{
+        column-count: 2;
+    }
+}
+@media(min-width:992px){
+    .card-columns{
+        column-count: 2;
+    }
+}
+@media(min-width:1200px){
+    .card-columns{
+        column-count: 2;
+    }
+}
+
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
@@ -20,4 +58,12 @@ section{
 }
 button{
     font-weight: 700 !important;
+}
+#temp{
+    background-image: url(./img/black-switch-wallpaper.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
